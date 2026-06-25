@@ -1,0 +1,90 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden;
+}
+/* NAVBAR */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  background: #111;
+  color: white;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav {
+  list-style: none;
+  display: flex;
+}
+
+.nav li {
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+/* BANNER */
+.hero-banner {
+  height: 400px;
+  background-image: url("images/banner.jpeg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.overlay {
+  text-align: center;
+  background: rgba(0,0,0,0.5);
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background: blue;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+/* PRODUCTS */
+.products {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 40px;
+}
+
+.card {
+  width: 200px;
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+}
